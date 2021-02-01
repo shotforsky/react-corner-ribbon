@@ -42,4 +42,4 @@ class MyComponent extends React.Component {
 ## live demo
 [CodeSandbox Demo](https://codesandbox.io/s/react-corner-ribbon-demo-qboxn)
 
-## overview
+![react-corner-ribbon](https://user-images.githubusercontent.com/14038117/106426773-28aef900-64a1-11eb-806a-851342d9eb97.png)
