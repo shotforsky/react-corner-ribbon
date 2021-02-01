@@ -10,7 +10,7 @@ $ npm install react-corner-ribbon --save
 
 ```jsx
 import React from "react";
-import ReactDOM from "react-dom";
+import CornerRibbon from "react-corner-ribbon";
 
 class MyComponent extends React.Component {
   render() {
