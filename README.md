@@ -17,11 +17,12 @@ class MyComponent extends React.Component {
     return (
       <div style={{ position: "relative" }}>
         <CornerRibbon
-          position="top-right"
-          fontColor="white"
-          backgroundColor="green"
-          containerStyle={{}}
-          style={{}}
+          position="top-right" // OPTIONAL, default as "top-right"
+          fontColor="#f0f0f0" // OPTIONAL, default as "#f0f0f0"
+          backgroundColor="#2c7" // OPTIONAL, default as "#2c7"
+          containerStyle={{}} // OPTIONAL, style of the ribbon
+          style={{}} // OPTIONAL, style of ribbon content
+          className="" // OPTIONAL, css class of ribbon
         >
           AUTHORIZED
         </CornerRibbon>
@@ -48,7 +49,8 @@ class MyComponent extends React.Component {
 
 
 ## Change log
+### v0.0.4(2021-05)
 * add support of props like `className`, `style`, `containerStyle`.
 
-### 2021-02
+### v0.0.3(2021-02)
 * Initial version
